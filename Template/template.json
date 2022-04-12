@@ -13,7 +13,7 @@
     "platform": "linux",
     "restart_policy": "unless-stopped",
     "ports": [
-      "22:2296/tcp"
+      "2296:22/tcp"
     ],
     "volumes": [
       {
@@ -23,9 +23,9 @@
     ],
     "env": [
       {
-        "name": "PUID",
-        "label": "PUID",
-        "default": "1000"
+        "name": "SSHPASS_ENV",
+        "label": "SSH password",
+        "default": "PxJQYb7Eo9srwz"
       }
     ]
   }
