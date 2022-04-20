@@ -23,6 +23,12 @@
         "container": "/var/lib/mysql"
       }
     ],
+    "labels": [
+      {
+        "name": "test",
+        "value": "test2"
+      }
+    ],
     "env": [
       {
         "name": "SSHPASS_ENV",
