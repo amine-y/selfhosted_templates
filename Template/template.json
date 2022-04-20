@@ -2,7 +2,7 @@
   {
     "type": 1,
     "title": "Magento 2 docker",
-    "name": "magento2docker",
+    "name": "Magento 2 docker",
     "description": "Magento 2 ",
     "logo": "https://camo.githubusercontent.com/a0ace829adbd220bbf3c575f95f9bd24f70f5db53d93e6753959de1f560dd3e6/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35352f4d6167656e746f5f4c6f676f2e7376672f3235363070782d4d6167656e746f5f4c6f676f2e7376672e706e67",
     "image": "ghcr.io/axelites/magento2-docker/magento2-docker:latest",
@@ -17,10 +17,8 @@
     ],
     "volumes": [
       {
-        "container": "/application"
-      },
-      {
-        "container": "/var/lib/mysql"
+        "container": "/root",
+        "bind": "/root"
       }
     ],
     "env": [
