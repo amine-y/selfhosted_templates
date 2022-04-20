@@ -24,10 +24,7 @@
       }
     ],
     "labels": [
-      {
-        "name": "test",
-        "value": "test2"
-      }
+      { "name": "com.example.vendor", "value": "Acme" },
     ],
     "env": [
       {
