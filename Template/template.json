@@ -17,8 +17,10 @@
     ],
     "volumes": [
       {
-        "container": "/root",
-        "bind": "/root"
+        "container": "/application"
+      },
+       {
+        "container": "/var/lib/mysql"
       }
     ],
     "env": [
