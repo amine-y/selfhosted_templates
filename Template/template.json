@@ -24,7 +24,7 @@
       }
     ],
     "labels": [
-      { "name": "com.example.vendor", "value": "Acme" },
+      { "name": "com.example.vendor", "value": "Acme" }
     ],
     "env": [
       {
