@@ -23,12 +23,6 @@
         "container": "/var/lib/mysql"
       }
     ],
-    "labels": [
-      {
-        "name": "com.example.vendor",
-        "value": "Acme"
-      }
-    ],
     "env": [
       {
         "name": "SSHPASS_ENV",
